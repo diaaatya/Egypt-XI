@@ -1,0 +1,49 @@
+.card{
+background: url(back1.png);	
+color: white ;
+font-family: myFont;
+font-size: .75em;
+
+
+}
+
+.pp{
+width: 150px;
+height: 150px;
+
+
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Play-Bold.ttf);
+}
+@font-face {
+    font-family: fifa;
+    src: url(EASPORTS15.ttf);
+}
+
+.topbox{
+position: sticky;
+top: 0px;
+z-index: 1;
+background-color: black;
+
+}
+
+.title{
+font-family: fifa;	
+margin-top: 0;
+padding-top: 0;
+font-size: 2.5em;
+color:#de9200;
+
+}
+.searchbx{
+color:#de9200;
+background-color: ffdca5;
+font-family: fifa;
+text-align: center;
+padding: 2px;
+margin: 5px;
+}
